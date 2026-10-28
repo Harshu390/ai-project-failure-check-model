@@ -1,0 +1,26 @@
+name: keep-streamlit-awake
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Visit the app in a real browser
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+          python - <<'EOF'
+          from playwright.sync_api import sync_playwright
+          URL = "https://https://ai-project-failure-check.streamlit.app/"
+          with sync_playwright() as p:
+              b = p.chromium.launch()
+              pg = b.new_page()
+              pg.goto(URL, wait_until="networkidle", timeout=90000)
+              btn = pg.get_by_role("button", name="Yes, get this app back up!")
+              if btn.count():
+                  btn.click()
+                  pg.wait_for_timeout(30000)
+              b.close()
+          EOF
