@@ -1,0 +1,108 @@
+{
+  "best": "XGBoost",
+  "A_cv_all80": {
+    "Logistic Regression": {
+      "accuracy": 0.72,
+      "precision": 0.7222164502164502,
+      "recall": 0.7278571428571429,
+      "f1": 0.7163989876652415,
+      "roc_auc": 0.7885714285714286,
+      "accuracy_sd": 0.0986154146165801,
+      "precision_sd": 0.12937513881064192,
+      "recall_sd": 0.12008500390667148,
+      "f1_sd": 0.09676998109766043,
+      "roc_auc_sd": 0.09568523404000484
+    },
+    "Random Forest": {
+      "accuracy": 0.685,
+      "precision": 0.6724545454545453,
+      "recall": 0.6957142857142857,
+      "f1": 0.6778462332301342,
+      "roc_auc": 0.7710813492063493,
+      "accuracy_sd": 0.08381527307120105,
+      "precision_sd": 0.1016000741552385,
+      "recall_sd": 0.14010564527075522,
+      "f1_sd": 0.10404516011340008,
+      "roc_auc_sd": 0.08134258224095238
+    },
+    "XGBoost": {
+      "accuracy": 0.735,
+      "precision": 0.7125223665223664,
+      "recall": 0.7778571428571428,
+      "f1": 0.7382893999705145,
+      "roc_auc": 0.7999702380952382,
+      "accuracy_sd": 0.1019803902718557,
+      "precision_sd": 0.10697866270766329,
+      "recall_sd": 0.1383282107075452,
+      "f1_sd": 0.10603825728772305,
+      "roc_auc_sd": 0.0950634487052222
+    }
+  },
+  "B1_train_syn_test_real": {
+    "Logistic Regression": {
+      "accuracy": 0.8235294117647058,
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1": 0.7692307692307693,
+      "roc_auc": 0.9583333333333333
+    },
+    "Random Forest": {
+      "accuracy": 0.7058823529411765,
+      "precision": 1.0,
+      "recall": 0.375,
+      "f1": 0.5454545454545454,
+      "roc_auc": 1.0
+    },
+    "XGBoost": {
+      "accuracy": 0.7058823529411765,
+      "precision": 1.0,
+      "recall": 0.375,
+      "f1": 0.5454545454545454,
+      "roc_auc": 1.0
+    }
+  },
+  "B2_leave_one_real_out": {
+    "Logistic Regression": {
+      "accuracy": 0.8235294117647058,
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1": 0.7692307692307693,
+      "roc_auc": 0.9027777777777778
+    },
+    "Random Forest": {
+      "accuracy": 0.7647058823529411,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "roc_auc": 0.9722222222222222
+    },
+    "XGBoost": {
+      "accuracy": 0.8823529411764706,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571,
+      "roc_auc": 0.9861111111111112
+    }
+  },
+  "shap_rank": {
+    "engineer_buy_in": 0.8640000224113464,
+    "leadership_sponsorship": 0.8619999885559082,
+    "poc_before_purchase": 0.7699999809265137,
+    "use_case_fit": 0.6449999809265137,
+    "team_ai_maturity": 0.6269999742507935,
+    "data_readiness": 0.5979999899864197,
+    "scope_narrow": 0.453000009059906,
+    "team_capacity": 0.4429999887943268,
+    "integration_complexity": 0.421999990940094
+  },
+  "confusion_matrix_oof": [
+    [
+      27,
+      14
+    ],
+    [
+      11,
+      28
+    ]
+  ]
+}

@@ -1,0 +1,81 @@
+case_id,case,source,data_origin,source_quality,industry,use_case,data_readiness,leadership_sponsorship,team_ai_maturity,integration_complexity,engineer_buy_in,team_capacity,poc_before_purchase,scope_narrow,use_case_fit,outcome,failed
+1,Auth0,Datadog case study,real,high,IT/SaaS,Observability/RCA,3.0,3,,2.0,,,,,,scaled,0
+2,USDA Forest Service,ECCO Select / Datadog+AWS,real,high,Government,Unified observability,2.0,3,,3.0,,,,,,scaled,0
+3,Boston Consulting Group,RapDev / Datadog,real,high,Prof. services,Monitoring consolidation,3.0,3,,2.0,,,,,,scaled,0
+4,Singapore Airlines,Splunk case study,real,high,Aviation,Full-stack observability,3.0,3,,3.0,,,,,,scaled,0
+5,Specsavers,Splunk case study,real,high,Retail/Healthcare,Tool consolidation / incident response,2.0,3,,3.0,,,,,,scaled,0
+6,Progressive Insurance,Splunk case study,real,high,Insurance,Observability + security,3.0,3,,3.0,,,,,,scaled,0
+7,UK retail bank,GlobalLogic AIOps case study,real,high,Banking,AIOps monitoring platform,2.0,3,,3.0,,,,,,scaled,0
+8,TalkTalk,Splunk case study,real,high,Telecom,Network performance monitoring,2.0,2,,2.0,,,,,,scaled,0
+9,Acquia,Splunk case study,real,high,Software/Hosting,Infra monitoring,2.0,2,,1.0,,,,,,scaled,0
+10,Melbourne manufacturer,AI pilot-failure article,real,low,Manufacturing,AI quality control,1.0,1,,3.0,,,,0.0,,abandoned,1
+11,Automotive OEM,AI pilot-failure article,real,low,Automotive,Predictive failure detection,2.0,1,,3.0,,,,,,stalled,1
+12,Sydney scheduling AI,AI pilot-failure article,real,low,Prof. services,AI scheduling automation,2.0,1,,2.0,1.0,,,,,stalled,1
+15,CEO-driven LLM startup,Reddit r/artificial comment (2025),real,low,Tech startup,LLM business-rule automation,,3,1.0,,1.0,,,,1.0,stalled,1
+16,Fortune 100 chatbot bolt-ons,Reddit r/artificial comment (2025),real,low,Large enterprise,Chatbot bolt-on apps,,3,1.0,,,,,,,stalled,1
+17,"Wall Street firm, 800 apps",Reddit r/artificial comment (2025),real,low,Finance,AI-enable custom apps,,3,1.0,,,,,0.0,,stalled,1
+19,"Unnamed org, 6-wk sandbox POC",Reddit r/sysadmin comment (2022),real,low,IT,AIOps ticket reduction,,2,,,3.0,2.0,1.0,,,abandoned,1
+20,Unnamed MSP,Reddit r/sysadmin comment (2022),real,low,IT services,AIOps alert suppression,,2,,,2.0,2.0,0.0,,1.0,abandoned,1
+S01,Synthetic case 1,synthetic,synthetic,synthetic,Finance,Auto-remediation,1.0,3,1.0,1.0,1.0,2.0,0.0,0.0,2.0,abandoned,1
+S02,Synthetic case 2,synthetic,synthetic,synthetic,Telecom,Capacity forecasting,3.0,2,3.0,3.0,1.0,3.0,0.0,0.0,1.0,stalled,1
+S03,Synthetic case 3,synthetic,synthetic,synthetic,Retail,Incident prediction,2.0,1,2.0,2.0,2.0,3.0,0.0,1.0,1.0,stalled,1
+S04,Synthetic case 4,synthetic,synthetic,synthetic,Manufacturing,Auto-remediation,2.0,3,2.0,2.0,1.0,3.0,1.0,0.0,3.0,scaled,0
+S05,Synthetic case 5,synthetic,synthetic,synthetic,Telecom,Anomaly detection,2.0,2,2.0,2.0,3.0,3.0,1.0,0.0,3.0,scaled,0
+S06,Synthetic case 6,synthetic,synthetic,synthetic,Retail,Anomaly detection,3.0,1,2.0,3.0,1.0,1.0,0.0,0.0,1.0,stalled,1
+S07,Synthetic case 7,synthetic,synthetic,synthetic,Telecom,Anomaly detection,1.0,2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,abandoned,1
+S08,Synthetic case 8,synthetic,synthetic,synthetic,Healthcare,Anomaly detection,3.0,3,2.0,2.0,2.0,2.0,1.0,1.0,1.0,scaled,0
+S09,Synthetic case 9,synthetic,synthetic,synthetic,Retail,Capacity forecasting,1.0,1,3.0,1.0,3.0,3.0,0.0,1.0,1.0,stalled,1
+S10,Synthetic case 10,synthetic,synthetic,synthetic,IT,Capacity forecasting,1.0,2,1.0,2.0,1.0,3.0,1.0,1.0,3.0,stalled,1
+S11,Synthetic case 11,synthetic,synthetic,synthetic,Retail,Capacity forecasting,2.0,1,2.0,3.0,1.0,1.0,1.0,1.0,3.0,scaled,0
+S12,Synthetic case 12,synthetic,synthetic,synthetic,Healthcare,Anomaly detection,3.0,3,1.0,2.0,3.0,1.0,0.0,0.0,1.0,stalled,1
+S13,Synthetic case 13,synthetic,synthetic,synthetic,Finance,Anomaly detection,3.0,2,2.0,3.0,3.0,1.0,0.0,1.0,3.0,abandoned,1
+S14,Synthetic case 14,synthetic,synthetic,synthetic,Healthcare,Incident prediction,3.0,1,2.0,2.0,2.0,1.0,1.0,0.0,1.0,stalled,1
+S15,Synthetic case 15,synthetic,synthetic,synthetic,Telecom,Auto-remediation,3.0,1,3.0,3.0,2.0,2.0,1.0,0.0,2.0,scaled,0
+S16,Synthetic case 16,synthetic,synthetic,synthetic,Telecom,Incident prediction,3.0,2,1.0,2.0,2.0,2.0,0.0,1.0,2.0,scaled,0
+S17,Synthetic case 17,synthetic,synthetic,synthetic,Finance,Auto-remediation,2.0,3,1.0,1.0,2.0,2.0,1.0,0.0,3.0,scaled,0
+S18,Synthetic case 18,synthetic,synthetic,synthetic,Healthcare,Anomaly detection,1.0,3,2.0,3.0,2.0,1.0,1.0,0.0,3.0,scaled,0
+S19,Synthetic case 19,synthetic,synthetic,synthetic,IT,Alert correlation,3.0,2,3.0,3.0,1.0,3.0,0.0,0.0,1.0,abandoned,1
+S20,Synthetic case 20,synthetic,synthetic,synthetic,Finance,Incident prediction,2.0,1,3.0,1.0,1.0,2.0,1.0,1.0,1.0,scaled,0
+S21,Synthetic case 21,synthetic,synthetic,synthetic,Retail,Anomaly detection,2.0,3,1.0,3.0,1.0,3.0,0.0,0.0,1.0,abandoned,1
+S22,Synthetic case 22,synthetic,synthetic,synthetic,Retail,Alert correlation,2.0,2,1.0,1.0,3.0,3.0,1.0,0.0,1.0,stalled,1
+S23,Synthetic case 23,synthetic,synthetic,synthetic,Retail,Capacity forecasting,1.0,3,3.0,3.0,2.0,1.0,0.0,1.0,3.0,stalled,1
+S24,Synthetic case 24,synthetic,synthetic,synthetic,IT,Anomaly detection,3.0,1,1.0,3.0,2.0,1.0,0.0,0.0,3.0,stalled,1
+S25,Synthetic case 25,synthetic,synthetic,synthetic,Finance,Auto-remediation,3.0,1,3.0,2.0,2.0,3.0,1.0,1.0,1.0,scaled,0
+S26,Synthetic case 26,synthetic,synthetic,synthetic,IT,Capacity forecasting,2.0,3,1.0,3.0,3.0,2.0,0.0,1.0,3.0,abandoned,1
+S27,Synthetic case 27,synthetic,synthetic,synthetic,Telecom,Alert correlation,2.0,3,3.0,1.0,1.0,1.0,1.0,1.0,2.0,scaled,0
+S28,Synthetic case 28,synthetic,synthetic,synthetic,Retail,Capacity forecasting,3.0,2,1.0,1.0,1.0,2.0,0.0,0.0,2.0,scaled,0
+S29,Synthetic case 29,synthetic,synthetic,synthetic,Telecom,Auto-remediation,2.0,3,2.0,1.0,1.0,2.0,1.0,0.0,2.0,stalled,1
+S30,Synthetic case 30,synthetic,synthetic,synthetic,Telecom,Incident prediction,2.0,3,2.0,2.0,2.0,3.0,1.0,0.0,1.0,scaled,0
+S31,Synthetic case 31,synthetic,synthetic,synthetic,Manufacturing,Alert correlation,2.0,2,1.0,3.0,3.0,1.0,1.0,1.0,3.0,scaled,0
+S32,Synthetic case 32,synthetic,synthetic,synthetic,Telecom,Anomaly detection,1.0,3,2.0,1.0,2.0,3.0,0.0,0.0,1.0,scaled,0
+S33,Synthetic case 33,synthetic,synthetic,synthetic,Telecom,Incident prediction,1.0,1,2.0,2.0,2.0,3.0,0.0,0.0,1.0,abandoned,1
+S34,Synthetic case 34,synthetic,synthetic,synthetic,Telecom,Alert correlation,2.0,1,3.0,3.0,3.0,1.0,1.0,0.0,1.0,abandoned,1
+S35,Synthetic case 35,synthetic,synthetic,synthetic,Telecom,Alert correlation,3.0,3,3.0,1.0,1.0,1.0,1.0,1.0,1.0,scaled,0
+S36,Synthetic case 36,synthetic,synthetic,synthetic,Telecom,Anomaly detection,1.0,2,2.0,3.0,2.0,2.0,1.0,0.0,1.0,scaled,0
+S37,Synthetic case 37,synthetic,synthetic,synthetic,Finance,Auto-remediation,3.0,1,2.0,1.0,2.0,1.0,0.0,1.0,1.0,stalled,1
+S38,Synthetic case 38,synthetic,synthetic,synthetic,Finance,Incident prediction,3.0,3,2.0,3.0,2.0,1.0,1.0,0.0,3.0,scaled,0
+S39,Synthetic case 39,synthetic,synthetic,synthetic,Manufacturing,Auto-remediation,1.0,1,2.0,2.0,3.0,2.0,0.0,0.0,3.0,abandoned,1
+S40,Synthetic case 40,synthetic,synthetic,synthetic,Retail,Capacity forecasting,2.0,3,3.0,2.0,1.0,3.0,0.0,0.0,1.0,scaled,0
+S41,Synthetic case 41,synthetic,synthetic,synthetic,Telecom,Anomaly detection,1.0,1,1.0,1.0,3.0,3.0,1.0,1.0,1.0,stalled,1
+S42,Synthetic case 42,synthetic,synthetic,synthetic,Finance,Capacity forecasting,3.0,3,1.0,2.0,1.0,1.0,0.0,0.0,2.0,stalled,1
+S43,Synthetic case 43,synthetic,synthetic,synthetic,Retail,Auto-remediation,3.0,3,2.0,3.0,2.0,3.0,1.0,0.0,3.0,scaled,0
+S44,Synthetic case 44,synthetic,synthetic,synthetic,Telecom,Alert correlation,2.0,3,1.0,1.0,2.0,1.0,0.0,1.0,3.0,scaled,0
+S45,Synthetic case 45,synthetic,synthetic,synthetic,Telecom,Auto-remediation,1.0,2,1.0,3.0,3.0,3.0,0.0,1.0,3.0,stalled,1
+S46,Synthetic case 46,synthetic,synthetic,synthetic,Telecom,Incident prediction,3.0,2,1.0,2.0,2.0,3.0,0.0,1.0,2.0,scaled,0
+S47,Synthetic case 47,synthetic,synthetic,synthetic,Retail,Alert correlation,2.0,3,3.0,3.0,1.0,3.0,1.0,1.0,2.0,scaled,0
+S48,Synthetic case 48,synthetic,synthetic,synthetic,Healthcare,Alert correlation,3.0,1,3.0,2.0,1.0,1.0,1.0,0.0,1.0,stalled,1
+S49,Synthetic case 49,synthetic,synthetic,synthetic,Telecom,Anomaly detection,3.0,3,3.0,2.0,2.0,3.0,1.0,1.0,3.0,scaled,0
+S50,Synthetic case 50,synthetic,synthetic,synthetic,Manufacturing,Alert correlation,3.0,2,2.0,1.0,3.0,1.0,1.0,0.0,3.0,scaled,0
+S51,Synthetic case 51,synthetic,synthetic,synthetic,Manufacturing,Alert correlation,3.0,2,3.0,2.0,1.0,2.0,1.0,1.0,1.0,stalled,1
+S52,Synthetic case 52,synthetic,synthetic,synthetic,Telecom,Incident prediction,1.0,2,1.0,1.0,3.0,2.0,1.0,1.0,3.0,scaled,0
+S53,Synthetic case 53,synthetic,synthetic,synthetic,Healthcare,Capacity forecasting,2.0,2,3.0,2.0,2.0,1.0,1.0,1.0,1.0,scaled,0
+S54,Synthetic case 54,synthetic,synthetic,synthetic,IT,Alert correlation,2.0,1,2.0,1.0,1.0,1.0,0.0,1.0,3.0,stalled,1
+S55,Synthetic case 55,synthetic,synthetic,synthetic,Healthcare,Incident prediction,2.0,1,3.0,2.0,1.0,3.0,0.0,1.0,3.0,scaled,0
+S56,Synthetic case 56,synthetic,synthetic,synthetic,Healthcare,Anomaly detection,1.0,1,1.0,2.0,2.0,2.0,0.0,1.0,1.0,stalled,1
+S57,Synthetic case 57,synthetic,synthetic,synthetic,Telecom,Alert correlation,2.0,1,2.0,1.0,1.0,2.0,0.0,1.0,2.0,stalled,1
+S58,Synthetic case 58,synthetic,synthetic,synthetic,Manufacturing,Incident prediction,1.0,2,3.0,3.0,1.0,2.0,1.0,0.0,1.0,stalled,1
+S59,Synthetic case 59,synthetic,synthetic,synthetic,Telecom,Alert correlation,3.0,3,2.0,2.0,2.0,2.0,0.0,0.0,2.0,scaled,0
+S60,Synthetic case 60,synthetic,synthetic,synthetic,Finance,Auto-remediation,3.0,2,2.0,3.0,3.0,3.0,0.0,0.0,3.0,scaled,0
+S61,Synthetic case 61,synthetic,synthetic,synthetic,Manufacturing,Auto-remediation,3.0,2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,scaled,0
+S62,Synthetic case 62,synthetic,synthetic,synthetic,Finance,Anomaly detection,3.0,3,2.0,1.0,1.0,3.0,1.0,0.0,2.0,scaled,0
+S63,Synthetic case 63,synthetic,synthetic,synthetic,Finance,Alert correlation,2.0,2,1.0,2.0,1.0,3.0,1.0,0.0,3.0,stalled,1
